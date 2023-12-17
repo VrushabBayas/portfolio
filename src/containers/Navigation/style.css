@@ -1,0 +1,32 @@
+.container{
+    .list-group {
+        background-color: orange;
+        margin: auto;
+        padding: 1rem;
+        display: inline-block;
+        li:first-child{
+            border-radius: 50%;
+        }
+        .verticle-bar {
+            height: 2rem;
+            border-left: 3px dotted black;
+            margin-left: 1.2rem;
+        }
+        .list-item{
+            list-style: none;
+            padding: 0.5rem;
+            cursor: pointer;
+        }
+        .list-item:hover{
+            color: white;
+        }
+    }
+
+    .top-cap, .bottom-cap {
+        border-radius: 50%;
+        height: 4rem;
+        width: 4rem;
+        background-color: red;
+    }
+   
+}
