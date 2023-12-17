@@ -1,6 +1,5 @@
 import React from "react";
 import Box from "@mui/material/Box";
-
 import backgroundImage from "../../Assets/Images/cropped-bg.png";
 
 import "./style.css";
@@ -15,7 +14,6 @@ const Profile = () => {
           width: "auto",
           height: "auto",
           objectFit: "contain",
-
           filter: "drop-shadow(0px 0px 10px rgba(0, 0,0,0.5))",
         }}
         src={backgroundImage}

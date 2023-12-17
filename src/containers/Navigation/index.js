@@ -7,34 +7,88 @@ import ArticleIcon from "@mui/icons-material/Article";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import { Box } from "@mui/material";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
-function NavigationBar(props) {
+function NavigationBar({ withLabel = false }) {
   return (
     <Box className="container">
       <ul className="list-group">
         <li className="list-item">
-          <HomeIcon />
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            <HomeIcon />
+          </NavLink>
+          {withLabel && <span>Home</span>}
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
-          <Person2Icon />
+          <NavLink
+            to="/about"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            <Person2Icon />
+          </NavLink>
+
+          {withLabel && <span>About</span>}
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
-          <WorkOutlineIcon />
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            <WorkOutlineIcon />
+          </NavLink>
+
+          {withLabel && <span>Work</span>}
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
-          <ArticleIcon />
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            <ArticleIcon />
+          </NavLink>
+
+          {withLabel && <span>Resume</span>}
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
-          <MenuBookIcon />
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            <MenuBookIcon />
+          </NavLink>
+
+          {withLabel && <span>Blogs</span>}
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
-          <ContactMailIcon />
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            <ContactMailIcon />
+          </NavLink>
+
+          {withLabel && <span>Contact</span>}
         </li>
       </ul>
     </Box>

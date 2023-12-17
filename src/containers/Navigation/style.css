@@ -12,10 +12,13 @@
             border-left: 3px dotted black;
             margin-left: 1.2rem;
         }
-        .list-item{
+        .list-item {
             list-style: none;
             padding: 0.5rem;
             cursor: pointer;
+            .active {
+                color: white;
+            }
         }
         .list-item:hover{
             color: white;
