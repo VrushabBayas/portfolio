@@ -1,11 +1,36 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { Grid } from "@mui/material";
 
-function index(props) {
-  return <Grid container>Coming soon</Grid>;
+import { Grid } from "@mui/material";
+import SideBar from "../SideBar";
+import NavigationBar from "../Navigation";
+
+function About({ children }) {
+  return (
+    <Grid container>
+      <Grid xs={2}>
+        <SideBar />
+      </Grid>
+      <Grid
+        xs={9}
+        sx={{
+          backgroundColor: "#e9f5f9",
+        }}
+      >
+        {children}
+      </Grid>
+      <Grid
+        xs={1}
+        sx={{
+          padding: "13rem 3rem",
+          backgroundColor: "#e9f5f9",
+        }}
+      >
+        <NavigationBar />
+      </Grid>
+    </Grid>
+  );
 }
 
-index.propTypes = {};
+About.propTypes = {};
 
-export default index;
+export default About;

@@ -21,9 +21,9 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            <HomeIcon />
+            {!withLabel && <HomeIcon />}
+            {withLabel && <span>Home</span>}
           </NavLink>
-          {withLabel && <span>Home</span>}
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
@@ -33,10 +33,9 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            <Person2Icon />
+            {!withLabel && <Person2Icon />}
+            {withLabel && <span>About</span>}
           </NavLink>
-
-          {withLabel && <span>About</span>}
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
@@ -46,10 +45,10 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            <WorkOutlineIcon />
-          </NavLink>
+            {!withLabel && <WorkOutlineIcon />}
 
-          {withLabel && <span>Work</span>}
+            {withLabel && <span>Work</span>}
+          </NavLink>
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
@@ -59,10 +58,10 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            <ArticleIcon />
-          </NavLink>
+            {!withLabel && <ArticleIcon />}
 
-          {withLabel && <span>Resume</span>}
+            {withLabel && <span>Resume</span>}
+          </NavLink>
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
@@ -72,10 +71,8 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            <MenuBookIcon />
+            {withLabel && <span>Blogs</span>}
           </NavLink>
-
-          {withLabel && <span>Blogs</span>}
         </li>
         <div className="verticle-bar" />
         <li className="list-item">
@@ -85,10 +82,10 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            <ContactMailIcon />
-          </NavLink>
+            {!withLabel && <ContactMailIcon />}
 
-          {withLabel && <span>Contact</span>}
+            {withLabel && <span>Contact</span>}
+          </NavLink>
         </li>
       </ul>
     </Box>
