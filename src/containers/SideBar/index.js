@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import { Box, CardActionArea } from "@mui/material";
 // import backgroundImage from "../../Assets/Images/cropped-bg.png";
 import backgroundImage from "../../Assets/Images/smalldp.png";
-import NavigationBar from "../Navigation";
+
 import { orange } from "@mui/material/colors";
 import { NavLink } from "react-router-dom";
 
@@ -24,7 +24,7 @@ export default function ActionAreaCard() {
           }}
           style={{
             height: "250px",
-            width: "250px",
+            width: "252px",
           }}
         />
         <CardContent

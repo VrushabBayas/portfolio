@@ -3,7 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Unstable_Grid2";
-import About from "../About";
+import Introduction from "../Introduction";
 import Profile from "../Profile";
 
 import NavigationBar from "../Navigation";
@@ -18,7 +18,7 @@ const Home = ({ children }) => {
           padding: "13rem 3rem",
         }}
       >
-        <About />
+        <Introduction />
       </Grid>
       <Grid
         xs={5}
