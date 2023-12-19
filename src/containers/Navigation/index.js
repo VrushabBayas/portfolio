@@ -19,7 +19,7 @@ function NavigationBar({ withLabel = false }) {
           <NavLink
             to="/"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
           >
             <HomeIcon className="zoom-effect" />
@@ -30,7 +30,7 @@ function NavigationBar({ withLabel = false }) {
           <NavLink
             to="/about"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
           >
             <Person2Icon className="zoom-effect" />
@@ -41,7 +41,7 @@ function NavigationBar({ withLabel = false }) {
           <NavLink
             to="/resume"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
           >
             <ArticleIcon className="zoom-effect" />
@@ -52,7 +52,7 @@ function NavigationBar({ withLabel = false }) {
           <NavLink
             to="/projects"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
           >
             <AppsIcon className="zoom-effect" />
@@ -64,10 +64,10 @@ function NavigationBar({ withLabel = false }) {
           <NavLink
             to="/"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
           >
-            <MenuBookIcon />
+            <MenuBookIcon className="zoom-effect" />
           </NavLink>
         </li>
         <div className="verticle-bar" />
@@ -75,7 +75,7 @@ function NavigationBar({ withLabel = false }) {
           <NavLink
             to="/contacts"
             className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
+              isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
           >
             <ContactMailIcon className="zoom-effect" />

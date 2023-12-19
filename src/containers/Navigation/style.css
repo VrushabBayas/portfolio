@@ -19,10 +19,11 @@
             .active {
                 color: white;
             }
+            .nav-link:not(.active) {
+                color: black; /* Add your desired styles here */
+              }
         }
-        .list-item:hover{
-            color: white;
-        }
+       
     }
 
     .top-cap, .bottom-cap {

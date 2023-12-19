@@ -10,7 +10,7 @@ import Call from "../../Assets/Images/call.png";
 import { Box } from "@mui/system";
 function Contact(props) {
   return (
-    <Layout title="CONTACTS">
+    <Layout title="CONTACT">
       <Grid
         container
         spacing={1}
