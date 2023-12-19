@@ -6,7 +6,16 @@ import "./style.css";
 function Header({ title }) {
   return (
     <Box className="header">
-      <Typography variant="h1">{title}</Typography>
+      <Typography
+        variant="h1"
+        fontWeight="bold"
+        sx={{
+          wordSpacing: 25,
+          letterSpacing: 10,
+        }}
+      >
+        {title}
+      </Typography>
     </Box>
   );
 }

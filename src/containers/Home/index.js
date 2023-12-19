@@ -3,7 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Unstable_Grid2";
-import Introduction from "../Introduction";
+import Introduction from "../About";
 import Profile from "../Profile";
 
 import NavigationBar from "../Navigation";

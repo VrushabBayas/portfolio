@@ -21,7 +21,7 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {!withLabel && <HomeIcon />}
+            {!withLabel && <HomeIcon className="zoom-effect" />}
             {withLabel && <span>Home</span>}
           </NavLink>
         </li>
@@ -33,7 +33,7 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {!withLabel && <Person2Icon />}
+            {!withLabel && <Person2Icon className="zoom-effect" />}
             {withLabel && <span>About</span>}
           </NavLink>
         </li>
@@ -58,7 +58,7 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {!withLabel && <ArticleIcon />}
+            {!withLabel && <ArticleIcon className="zoom-effect" />}
 
             {withLabel && <span>Resume</span>}
           </NavLink>
@@ -82,7 +82,7 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {!withLabel && <ContactMailIcon />}
+            {!withLabel && <ContactMailIcon className="zoom-effect" />}
 
             {withLabel && <span>Contact</span>}
           </NavLink>

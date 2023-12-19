@@ -37,7 +37,7 @@ export default function ActionAreaCard() {
             <ul className="list-group">
               <div className="verticle-bar-dot" />
               <div className="verticle-bar" />
-              <li className="list-item">
+              <li className="list-item zoom-effect">
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
@@ -54,7 +54,7 @@ export default function ActionAreaCard() {
                 </NavLink>
               </li>
               <div className="verticle-bar" />
-              <li className="list-item">
+              <li className="list-item zoom-effect">
                 <NavLink
                   to="/about"
                   className={({ isActive, isPending }) =>
@@ -67,7 +67,7 @@ export default function ActionAreaCard() {
                 </NavLink>
               </li>
               <div className="verticle-bar" />
-              <li className="list-item">
+              <li className="list-item zoom-effect">
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
@@ -80,7 +80,7 @@ export default function ActionAreaCard() {
                 </NavLink>
               </li>
               <div className="verticle-bar" />
-              <li className="list-item">
+              <li className="list-item zoom-effect">
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
@@ -93,7 +93,7 @@ export default function ActionAreaCard() {
                 </NavLink>
               </li>
               <div className="verticle-bar" />
-              <li className="list-item">
+              <li className="list-item zoom-effect">
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
@@ -106,7 +106,7 @@ export default function ActionAreaCard() {
                 </NavLink>
               </li>
               <div className="verticle-bar" />
-              <li className="list-item">
+              <li className="list-item zoom-effect">
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
