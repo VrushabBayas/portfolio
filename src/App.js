@@ -9,33 +9,36 @@ import Projects from "./containers/Projects";
 import "./App.css";
 import Contact from "./containers/Contact";
 
-const router = createBrowserRouter({ basename: "/portfolio" }, [
-  {
-    path: "/",
-    element: <Home />,
-    exact: true,
-  },
-  {
-    path: "/about",
-    element: <About />,
-    exact: true,
-  },
-  {
-    path: "/resume",
-    element: <Resume />,
-    exact: true,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-    exact: true,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-    exact: true,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+      exact: true,
+    },
+    {
+      path: "/about",
+      element: <About />,
+      exact: true,
+    },
+    {
+      path: "/resume",
+      element: <Resume />,
+      exact: true,
+    },
+    {
+      path: "/projects",
+      element: <Projects />,
+      exact: true,
+    },
+    {
+      path: "/contact",
+      element: <Contact />,
+      exact: true,
+    },
+  ],
+  { basename: "/portfolio" }
+);
 function App() {
   return <RouterProvider router={router} />;
 }
