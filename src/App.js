@@ -31,8 +31,8 @@ const router = createBrowserRouter(
       path: "/contact",
       element: <Contact />,
     },
-  ]
-  // { basename: "/portfolio" }
+  ],
+  { basename: "/portfolio" }
 );
 function App() {
   return <RouterProvider router={router} />;
