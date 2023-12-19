@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Layout";
 
-import { Chip, Grid, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 import "./style.css";
 import Email from "../../Assets/Images/email.png";
