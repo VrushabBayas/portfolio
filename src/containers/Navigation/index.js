@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import HomeIcon from "@mui/icons-material/Home";
 import Person2Icon from "@mui/icons-material/Person2";
-import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import ArticleIcon from "@mui/icons-material/Article";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
