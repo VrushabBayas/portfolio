@@ -76,7 +76,7 @@ function About() {
                           fontWeight="bold"
                           className="zoom-effect"
                         >
-                          20 +
+                          10 +
                         </Typography>
                       </Box>
                       <Box>
