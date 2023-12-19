@@ -10,27 +10,27 @@ import Contact from "./containers/Contact";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <Home />,
     exact: true,
   },
   {
-    path: "about",
+    path: "/about",
     element: <About />,
     exact: true,
   },
   {
-    path: "resume",
+    path: "/resume",
     element: <Resume />,
     exact: true,
   },
   {
-    path: "projects",
+    path: "/projects",
     element: <Projects />,
     exact: true,
   },
   {
-    path: "contacts",
+    path: "/contacts",
     element: <Contact />,
     exact: true,
   },

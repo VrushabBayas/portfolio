@@ -17,7 +17,7 @@ function NavigationBar({ withLabel = false }) {
       <ul className="list-group">
         <li className="list-item">
           <NavLink
-            to="/"
+            to="/portfolio"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
