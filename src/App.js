@@ -6,6 +6,7 @@ import Resume from "./containers/Resume";
 import Projects from "./containers/Projects";
 
 import "./App.css";
+import Contact from "./containers/Contact";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
   {
     path: "projects",
     element: <Projects />,
+    exact: true,
+  },
+  {
+    path: "contacts",
+    element: <Contact />,
     exact: true,
   },
 ]);
