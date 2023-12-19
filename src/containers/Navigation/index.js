@@ -6,6 +6,7 @@ import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import ArticleIcon from "@mui/icons-material/Article";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
+import AppsIcon from "@mui/icons-material/Apps";
 import { Box } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import "./style.css";
@@ -38,17 +39,6 @@ function NavigationBar({ withLabel = false }) {
         <div className="verticle-bar" />
         <li className="list-item">
           <NavLink
-            to="/"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
-            <WorkOutlineIcon />
-          </NavLink>
-        </li>
-        <div className="verticle-bar" />
-        <li className="list-item">
-          <NavLink
             to="/resume"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active" : ""
@@ -57,6 +47,18 @@ function NavigationBar({ withLabel = false }) {
             <ArticleIcon className="zoom-effect" />
           </NavLink>
         </li>
+        <div className="verticle-bar" />
+        <li className="list-item">
+          <NavLink
+            to="/projects"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            <AppsIcon className="zoom-effect" />
+          </NavLink>
+        </li>
+
         <div className="verticle-bar" />
         <li className="list-item">
           <NavLink

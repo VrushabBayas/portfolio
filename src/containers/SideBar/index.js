@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Box, CardActionArea } from "@mui/material";
-// import backgroundImage from "../../Assets/Images/cropped-bg.png";
+
 import backgroundImage from "../../Assets/Images/smalldp.png";
 
 import { orange } from "@mui/material/colors";
@@ -69,19 +69,6 @@ export default function ActionAreaCard() {
               <div className="verticle-bar" />
               <li className="list-item zoom-effect">
                 <NavLink
-                  to="/"
-                  className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : ""
-                  }
-                >
-                  <Typography variant="h5" marginBottom="15px" fontWeight={600}>
-                    Work
-                  </Typography>
-                </NavLink>
-              </li>
-              <div className="verticle-bar" />
-              <li className="list-item zoom-effect">
-                <NavLink
                   to="/resume"
                   className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""
@@ -89,6 +76,20 @@ export default function ActionAreaCard() {
                 >
                   <Typography variant="h5" marginBottom="15px" fontWeight={600}>
                     Resume
+                  </Typography>
+                </NavLink>
+              </li>
+
+              <div className="verticle-bar" />
+              <li className="list-item zoom-effect">
+                <NavLink
+                  to="/projects"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : ""
+                  }
+                >
+                  <Typography variant="h5" marginBottom="15px" fontWeight={600}>
+                    Projects
                   </Typography>
                 </NavLink>
               </li>

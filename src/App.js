@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./containers/Home";
 import About from "./containers/About";
 import Resume from "./containers/Resume";
+import Projects from "./containers/Projects";
+
 import "./App.css";
 
 const router = createBrowserRouter([
@@ -19,6 +21,11 @@ const router = createBrowserRouter([
   {
     path: "resume",
     element: <Resume />,
+    exact: true,
+  },
+  {
+    path: "projects",
+    element: <Projects />,
     exact: true,
   },
 ]);
