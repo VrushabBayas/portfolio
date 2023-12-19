@@ -19,7 +19,7 @@ function Layout({ children, title }) {
       <Grid
         xs={9}
         sx={{
-          padding: "4rem 1rem 4rem 4rem",
+          padding: "2rem 1rem 4rem 4rem",
         }}
       >
         <Header title={title} />

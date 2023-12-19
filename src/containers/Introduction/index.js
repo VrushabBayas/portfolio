@@ -1,7 +1,9 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import { Box, Card, Chip, Grid } from "@mui/material";
+import { NavLink } from "react-router-dom";
 
+import "./style.css";
 function Introduction() {
   return (
     <Box>
@@ -44,10 +46,13 @@ function Introduction() {
         </Typography>
         <Chip
           size="large"
+          className="zoom-effect"
           label={
-            <Typography variant="h6" fontWeight={600}>
-              MORE ABOUT ME
-            </Typography>
+            <NavLink to="/about" className="about-me-link">
+              <Typography variant="h6" fontWeight={600}>
+                MORE ABOUT ME
+              </Typography>
+            </NavLink>
           }
           style={{
             backgroundColor: "orange",
