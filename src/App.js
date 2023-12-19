@@ -1,5 +1,6 @@
 import * as React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import Home from "./containers/Home";
 import About from "./containers/About";
 import Resume from "./containers/Resume";
@@ -8,7 +9,7 @@ import Projects from "./containers/Projects";
 import "./App.css";
 import Contact from "./containers/Contact";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter({ basename: "/portfolio" }, [
   {
     path: "/",
     element: <Home />,
