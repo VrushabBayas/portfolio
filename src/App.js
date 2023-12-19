@@ -13,31 +13,26 @@ const router = createBrowserRouter(
   [
     {
       path: "/",
-      element: <About />,
-      exact: true,
+      element: <Home />,
     },
     {
       path: "/about",
-      element: <Home />,
-      exact: true,
+      element: <About />,
     },
     {
       path: "/resume",
       element: <Resume />,
-      exact: true,
     },
     {
       path: "/projects",
       element: <Projects />,
-      exact: true,
     },
     {
       path: "/contact",
       element: <Contact />,
-      exact: true,
     },
-  ],
-  { basename: "/portfolio" }
+  ]
+  // { basename: "/portfolio" }
 );
 function App() {
   return <RouterProvider router={router} />;
