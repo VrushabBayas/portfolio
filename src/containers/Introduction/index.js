@@ -38,8 +38,8 @@ function Introduction() {
             fontFamily: `font-family: 'Poppins', sans-serif`,
           }}
         >
-          I am a dedicated web developer with over 6 years of experience in web
-          development. I have strong creative and analytical skills, paying
+          I am a professional Web Developer with over 6 years of experience in
+          web development. I have strong creative and analytical skills, paying
           great attention to detail. As a team player, I thrive in collaborative
           environments. My expertise lies in JavaScript, ReactJs, HTML, CSS, and
           Bootstrap.
