@@ -17,7 +17,7 @@ const Profile = () => {
           filter: "drop-shadow(0px 0px 10px rgba(0, 0,0,0.5))",
         }}
         src={backgroundImage}
-        alt="back ground image"
+        alt="back ground image-profile"
       />
     </Box>
   );

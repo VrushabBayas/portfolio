@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Grid } from "@mui/material";
 import SideBar from "../SideBar";
 import NavigationBar from "../Navigation";
@@ -37,7 +36,5 @@ function Layout({ children, title }) {
     </Grid>
   );
 }
-
-Layout.propTypes = {};
 
 export default Layout;

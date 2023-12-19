@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Layout from "../Layout";
 
 import { Chip, Grid, Typography } from "@mui/material";
@@ -174,7 +173,5 @@ function Projects(props) {
     </Layout>
   );
 }
-
-Projects.propTypes = {};
 
 export default Projects;

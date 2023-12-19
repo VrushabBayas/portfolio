@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Layout from "../Layout";
 
 import { Chip, Grid, Typography } from "@mui/material";
@@ -7,7 +6,7 @@ import { Chip, Grid, Typography } from "@mui/material";
 import "./style.css";
 import Email from "../../Assets/Images/email.png";
 import Call from "../../Assets/Images/call.png";
-import { Box } from "@mui/system";
+
 function Contact(props) {
   return (
     <Layout title="CONTACT">
@@ -90,7 +89,5 @@ function Contact(props) {
     </Layout>
   );
 }
-
-Contact.propTypes = {};
 
 export default Contact;

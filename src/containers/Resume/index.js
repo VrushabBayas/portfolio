@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Layout from "../Layout";
 
 import { Chip, Divider, Grid, Rating, Typography } from "@mui/material";
@@ -318,7 +317,5 @@ function Resume(props) {
     </Layout>
   );
 }
-
-Resume.propTypes = {};
 
 export default Resume;

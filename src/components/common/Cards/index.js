@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Card, CardContent, Typography, Chip, Grid } from "@mui/material";
+import { Card, CardContent, Typography, Grid } from "@mui/material";
 import WebDevelopment from "../../../Assets/Images/webdevlogo.png";
 import Youtube from "../../../Assets/Images/youtube.png";
 import GAMING from "../../../Assets/Images/gaming.png";
@@ -70,7 +70,7 @@ export default function InteractiveCard() {
               <img
                 className="zoom-effect"
                 src={Youtube}
-                alt="web-card"
+                alt="yt-web-card"
                 style={{
                   width: 70,
                 }}
@@ -110,7 +110,7 @@ export default function InteractiveCard() {
               <img
                 className="zoom-effect"
                 src={GAMING}
-                alt="web-card"
+                alt="gm-web-card"
                 style={{
                   width: 70,
                   background: "transperent",
@@ -119,7 +119,7 @@ export default function InteractiveCard() {
             </Grid>
             <Grid xs={8}>
               <Typography level="title-lg" fontWeight="bold">
-                Gaming
+                Gamer
               </Typography>
               <Typography variant="p">
                 Level Up Your Entertainment: Where Gaming Dreams Come to Life!

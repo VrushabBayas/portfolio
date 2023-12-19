@@ -225,6 +225,4 @@ function About() {
   );
 }
 
-About.propTypes = {};
-
 export default About;
