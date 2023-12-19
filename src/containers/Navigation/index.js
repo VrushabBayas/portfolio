@@ -17,7 +17,7 @@ function NavigationBar({ withLabel = false }) {
       <ul className="list-group">
         <li className="list-item">
           <NavLink
-            to="/portfolio"
+            to="/"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
@@ -73,7 +73,7 @@ function NavigationBar({ withLabel = false }) {
         <div className="verticle-bar" />
         <li className="list-item">
           <NavLink
-            to="/contacts"
+            to="/contact"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }
