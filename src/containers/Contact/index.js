@@ -40,8 +40,8 @@ function Contact(props) {
           >
             <img
               style={{
-                width: "15rem",
-                height: "15rem",
+                width: "10rem",
+                height: "10rem",
               }}
               className="contact-icon"
               src={Email}
@@ -61,8 +61,8 @@ function Contact(props) {
           >
             <img
               style={{
-                width: "15rem",
-                height: "15rem",
+                width: "10rem",
+                height: "10rem",
               }}
               className="contact-icon"
               src={Call}
