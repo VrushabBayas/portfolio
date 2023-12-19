@@ -1,15 +1,14 @@
 import * as React from "react";
-import CssBaseline from "@mui/material/CssBaseline";
+
 import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
 import Grid from "@mui/material/Unstable_Grid2";
-import Introduction from "../About";
+import Introduction from "../Introduction/index";
 import Profile from "../Profile";
 
 import NavigationBar from "../Navigation";
 
 import "./style.css";
-const Home = ({ children }) => {
+const Home = () => {
   return (
     <Grid container className="container">
       <Grid

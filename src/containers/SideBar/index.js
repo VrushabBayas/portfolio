@@ -82,7 +82,7 @@ export default function ActionAreaCard() {
               <div className="verticle-bar" />
               <li className="list-item zoom-effect">
                 <NavLink
-                  to="/"
+                  to="/resume"
                   className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""
                   }

@@ -21,8 +21,7 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {!withLabel && <HomeIcon className="zoom-effect" />}
-            {withLabel && <span>Home</span>}
+            <HomeIcon className="zoom-effect" />
           </NavLink>
         </li>
         <div className="verticle-bar" />
@@ -33,8 +32,7 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {!withLabel && <Person2Icon className="zoom-effect" />}
-            {withLabel && <span>About</span>}
+            <Person2Icon className="zoom-effect" />
           </NavLink>
         </li>
         <div className="verticle-bar" />
@@ -45,9 +43,18 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {!withLabel && <WorkOutlineIcon />}
-
-            {withLabel && <span>Work</span>}
+            <WorkOutlineIcon />
+          </NavLink>
+        </li>
+        <div className="verticle-bar" />
+        <li className="list-item">
+          <NavLink
+            to="/resume"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            <ArticleIcon className="zoom-effect" />
           </NavLink>
         </li>
         <div className="verticle-bar" />
@@ -58,9 +65,7 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {!withLabel && <ArticleIcon className="zoom-effect" />}
-
-            {withLabel && <span>Resume</span>}
+            <MenuBookIcon />
           </NavLink>
         </li>
         <div className="verticle-bar" />
@@ -71,20 +76,7 @@ function NavigationBar({ withLabel = false }) {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            {withLabel && <span>Blogs</span>}
-          </NavLink>
-        </li>
-        <div className="verticle-bar" />
-        <li className="list-item">
-          <NavLink
-            to="/"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active" : ""
-            }
-          >
-            {!withLabel && <ContactMailIcon className="zoom-effect" />}
-
-            {withLabel && <span>Contact</span>}
+            <ContactMailIcon className="zoom-effect" />
           </NavLink>
         </li>
       </ul>
