@@ -9,28 +9,32 @@ import NavigationBar from "../Navigation";
 // import "./style.css";
 const Home = () => {
   return (
-    <Grid container className="container">
+    <Grid container className="container" xs={12}>
       <Grid
-        xs={6}
+        item
+        xs={12}
+        sm={6}
+        md={6}
+        lg={6}
         sx={{
-          padding: "13rem 3rem",
+          margin: "auto",
+          padding: "5rem",
         }}
       >
         <Introduction />
       </Grid>
-      <Grid
-        xs={5}
-        sx={{
-          backgroundColor: "#f0f0ed",
-        }}
-      >
+      <Grid item xs={12} sm={4} md={4} lg={5} sx={{}}>
         <Profile />
       </Grid>
       <Grid
-        xs={1}
+        item
+        xs={12}
+        sm={1}
+        md={1}
+        lg={1}
         sx={{
-          padding: "13rem 3rem",
-          backgroundColor: "#f0f0ed",
+          margin: "auto",
+          paddingLeft: "1rem",
         }}
       >
         <NavigationBar />
