@@ -32,16 +32,16 @@ function Contact(props) {
         <Grid container>
           <Grid
             xs={6}
-            marginTop={5}
-            justifyContent="space-between"
+            marginTop={20}
+            justifyContent="space-around"
             alignItems="center"
             display="flex"
             p={1}
           >
             <img
               style={{
-                width: "10rem",
-                height: "10rem",
+                width: "8rem",
+                height: "8rem",
               }}
               className="contact-icon"
               src={Email}
@@ -54,15 +54,15 @@ function Contact(props) {
           <Grid
             xs={5}
             p={1}
-            marginTop={5}
-            justifyContent="space-between"
+            marginTop={20}
+            justifyContent="space-around"
             alignItems="center"
             display="flex"
           >
             <img
               style={{
-                width: "10rem",
-                height: "10rem",
+                width: "8rem",
+                height: "8rem",
               }}
               className="contact-icon"
               src={Call}
@@ -76,7 +76,8 @@ function Contact(props) {
         <Grid
           container
           sx={{
-            margin: "1rem",
+            height: 200,
+            margin: "auto",
             padding: "1rem",
             display: "flex",
             justifyContent: "center",

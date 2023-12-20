@@ -18,7 +18,7 @@ function Layout({ children, title }) {
       <Grid
         xs={9}
         sx={{
-          padding: "2rem 1rem 4rem 4rem",
+          padding: "2rem 1rem 0rem 4rem",
         }}
       >
         <Header title={title} />
@@ -28,7 +28,7 @@ function Layout({ children, title }) {
         xs={1}
         sx={{
           margin: "auto",
-          paddingLeft: "0.3rem",
+          paddingLeft: "3rem",
         }}
       >
         <NavigationBar />

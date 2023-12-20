@@ -8,6 +8,7 @@ import ContactMailIcon from "@mui/icons-material/ContactMail";
 import AppsIcon from "@mui/icons-material/Apps";
 import { Box } from "@mui/material";
 import { NavLink } from "react-router-dom";
+
 import "./style.css";
 
 function NavigationBar({ withLabel = false }) {
