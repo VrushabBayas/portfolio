@@ -18,7 +18,7 @@ const Home = () => {
         lg={6}
         sx={{
           margin: "auto",
-          padding: "5rem",
+          padding: "0rem 3rem",
         }}
       >
         <Introduction />

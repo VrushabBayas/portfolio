@@ -10,7 +10,8 @@ function Layout({ children, title }) {
       container
       sx={{
         backgroundColor: "#e9f5f9",
-        height: "100vh",
+        margin: "auto",
+        padding: "1.5rem 1rem",
       }}
     >
       <Grid item xs={12} sm={6} md={6} lg={2}>
