@@ -10,6 +10,7 @@ function Layout({ children, title }) {
       container
       sx={{
         backgroundColor: "#e9f5f9",
+        height: "100vh",
       }}
     >
       <Grid xs={2}>
@@ -18,7 +19,7 @@ function Layout({ children, title }) {
       <Grid
         xs={9}
         sx={{
-          padding: "2rem 1rem 0rem 4rem",
+          padding: "4rem 4rem 1rem 4rem",
         }}
       >
         <Header title={title} />
