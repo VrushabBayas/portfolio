@@ -13,11 +13,15 @@ function Layout({ children, title }) {
         height: "100vh",
       }}
     >
-      <Grid xs={2}>
+      <Grid item xs={12} sm={6} md={6} lg={2}>
         <SideBar />
       </Grid>
       <Grid
-        xs={9}
+        item
+        xs={12}
+        sm={6}
+        md={9}
+        lg={9}
         sx={{
           padding: "2rem 4rem 1rem 4rem",
         }}
@@ -26,7 +30,11 @@ function Layout({ children, title }) {
         {children}
       </Grid>
       <Grid
-        xs={1}
+        item
+        xs={12}
+        sm={12}
+        md={12}
+        lg={1}
         sx={{
           margin: "auto",
           paddingLeft: "3rem",
