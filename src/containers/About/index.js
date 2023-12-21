@@ -15,7 +15,11 @@ import Layout from "../Layout";
 function About() {
   return (
     <Layout title="ABOUT ME">
-      <Box
+      <Grid
+        xs={12}
+        sm={12}
+        md={12}
+        lg={12}
         sx={{
           padding: "0.5rem",
         }}
@@ -43,8 +47,8 @@ function About() {
           others. Join me on my channels to experience the perfect blend of
           technology and entertainment!"
         </Typography>
-      </Box>
-      <Grid xs={12}>
+      </Grid>
+      <Grid xs={12} sm={12} md={12} lg={12}>
         <Grid container justifyContent="center">
           <Grid xs={7}>
             <Card
@@ -200,7 +204,10 @@ function About() {
             </Card>
           </Grid>
           <Grid
-            xs={4}
+            xs={12}
+            sm={4}
+            md={4}
+            lg={4}
             sx={{
               margin: "auto",
             }}
