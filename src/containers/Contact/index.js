@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../Layout";
+import Email from "../../Assets/Images/email.png";
+import Call from "../../Assets/Images/call.png";
 
 import { Grid, Typography } from "@mui/material";
 
 import "./style.css";
-import Email from "../../Assets/Images/email.png";
-import Call from "../../Assets/Images/call.png";
 
 function Contact(props) {
   return (
@@ -31,7 +31,10 @@ function Contact(props) {
         </Grid>
         <Grid container>
           <Grid
-            xs={6}
+            xs={12}
+            ls={6}
+            sm={6}
+            md={6}
             marginTop={20}
             justifyContent="space-around"
             alignItems="center"
@@ -52,7 +55,10 @@ function Contact(props) {
             </Typography>
           </Grid>
           <Grid
-            xs={5}
+            xs={12}
+            ls={6}
+            sm={6}
+            md={6}
             p={1}
             marginTop={20}
             justifyContent="space-around"
@@ -84,7 +90,9 @@ function Contact(props) {
             alignItems: "center",
           }}
         >
-          <Typography variant="h2">THANKS FOR PATIENCE!</Typography>
+          <Typography className="good-by-msg" variant="h2">
+            THANKS FOR PATIENCE!
+          </Typography>
         </Grid>
       </Grid>
     </Layout>

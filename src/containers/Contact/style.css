@@ -2,3 +2,12 @@
     width: '5rem';
     height: '5rem';
 }
+@media (max-width: 768px) {
+    .good-by-msg h1{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        color: red;
+    }
+   
+}

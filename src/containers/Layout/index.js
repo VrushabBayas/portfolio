@@ -45,7 +45,6 @@ function Layout({ children, title }) {
         lg={1}
         sx={{
           margin: "auto",
-          paddingLeft: "3rem",
         }}
       >
         <NavigationBar />

@@ -12,7 +12,6 @@ export default function InteractiveCard() {
         variant="outlined"
         orientation="horizontal"
         sx={{
-          width: 500,
           margin: "0.2rem",
           backgroundColor: "#e9f5f9",
           border: "none",
@@ -25,8 +24,8 @@ export default function InteractiveCard() {
             alignItems: "center",
           }}
         >
-          <Grid container spacing={1} xs={12}>
-            <Grid xs={12} lg={3} sm={3} md={3}>
+          <Grid container spacing={1}>
+            <Grid xs={12} lg={4} sm={4} md={4}>
               <img
                 className="zoom-effect"
                 src={WebDevelopment}
@@ -52,7 +51,6 @@ export default function InteractiveCard() {
         variant="outlined"
         orientation="horizontal"
         sx={{
-          width: 500,
           margin: "0.2rem",
           backgroundColor: "#e9f5f9",
           border: "none",
@@ -66,7 +64,7 @@ export default function InteractiveCard() {
           }}
         >
           <Grid container spacing={1} xs={12}>
-            <Grid xs={12} lg={3} sm={3} md={3}>
+            <Grid xs={12} lg={4} sm={4} md={4}>
               <img
                 className="zoom-effect"
                 src={Youtube}
@@ -92,7 +90,6 @@ export default function InteractiveCard() {
         variant="outlined"
         orientation="horizontal"
         sx={{
-          width: 500,
           margin: "0.2rem",
           backgroundColor: "#e9f5f9",
           border: "none",
@@ -105,8 +102,8 @@ export default function InteractiveCard() {
             alignItems: "center",
           }}
         >
-          <Grid container spacing={1} xs={12}>
-            <Grid xs={12} lg={3} sm={3} md={3}>
+          <Grid container spacing={1}>
+            <Grid xs={12} lg={4} sm={4} md={4}>
               <img
                 className="zoom-effect"
                 src={GAMING}
