@@ -7,7 +7,7 @@ import GAMING from "../../../Assets/Images/gaming.png";
 
 export default function InteractiveCard() {
   return (
-    <Grid xs={12} sm={4} md={4} lg={4}>
+    <>
       <Card
         variant="outlined"
         orientation="horizontal"
@@ -25,7 +25,7 @@ export default function InteractiveCard() {
             alignItems: "center",
           }}
         >
-          <Grid container spacing={1} xs={12} sm={4} md={4} lg={4}>
+          <Grid container spacing={1} xs={12}>
             <Grid xs={3}>
               <img
                 className="zoom-effect"
@@ -128,6 +128,6 @@ export default function InteractiveCard() {
           </Grid>
         </CardContent>
       </Card>
-    </Grid>
+    </>
   );
 }
