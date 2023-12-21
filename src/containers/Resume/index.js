@@ -3,7 +3,7 @@ import Layout from "../Layout";
 
 import { Chip, Divider, Grid, Rating, Typography } from "@mui/material";
 
-function Resume(props) {
+function Resume() {
   return (
     <Layout title="RESUME">
       <Grid
@@ -16,7 +16,6 @@ function Resume(props) {
           container
           sx={{
             display: "flex",
-            height: 180,
           }}
           spacing={1}
         >
@@ -25,7 +24,15 @@ function Resume(props) {
               Education
             </Typography>
           </Grid>
-          <Grid xs={4}>
+          <Grid
+            xs={12}
+            lg={4}
+            sm={4}
+            md={4}
+            sx={{
+              padding: "1rem",
+            }}
+          >
             <Grid container>
               <Chip
                 sx={{
@@ -51,7 +58,15 @@ function Resume(props) {
               <Typography variant="p">Master of Computer science</Typography>
             </Grid>
           </Grid>
-          <Grid xs={4}>
+          <Grid
+            xs={12}
+            lg={4}
+            sm={4}
+            md={4}
+            sx={{
+              padding: "1rem",
+            }}
+          >
             <Grid container>
               <Chip
                 sx={{
@@ -84,123 +99,124 @@ function Resume(props) {
           }}
         />
         <Grid
-          container
           sx={{
-            height: 110,
+            margin: "auto",
           }}
-          spacing={1}
         >
           <Grid
             container
             sx={{
               display: "flex",
             }}
+            spacing={1}
           >
-            <Typography variant="h5" fontWeight="bold">
-              Skills
-            </Typography>
-          </Grid>
-          <Grid
-            container
-            sx={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-            }}
-          >
-            <Grid>
-              <Grid container>
-                <Chip
-                  sx={{
-                    backgroundColor: "orange",
-                  }}
-                  label={
-                    <Typography variant="h6" fontWeight="bold" color="white">
-                      React JS
-                    </Typography>
-                  }
-                />
-              </Grid>
-              <Rating value={4} readOnly />
+            <Grid container>
+              <Typography variant="h5" fontWeight="bold">
+                Skills
+              </Typography>
             </Grid>
-            <Grid>
-              <Grid container>
-                <Chip
-                  sx={{
-                    backgroundColor: "orange",
-                  }}
-                  label={
-                    <Typography variant="h6" fontWeight="bold" color="white">
-                      Javascript
-                    </Typography>
-                  }
-                />
+            <Grid
+              container
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                padding: "1rem",
+              }}
+            >
+              <Grid xs={6} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Chip
+                    sx={{
+                      backgroundColor: "orange",
+                    }}
+                    label={
+                      <Typography variant="h6" fontWeight="bold" color="white">
+                        React JS
+                      </Typography>
+                    }
+                  />
+                </Grid>
+                <Rating value={4} readOnly />
               </Grid>
-              <Rating value={4} readOnly />
-            </Grid>
-            <Grid>
-              <Grid container>
-                <Chip
-                  sx={{
-                    backgroundColor: "orange",
-                  }}
-                  label={
-                    <Typography variant="h6" fontWeight="bold" color="white">
-                      Node JS
-                    </Typography>
-                  }
-                />
+              <Grid xs={6} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Chip
+                    sx={{
+                      backgroundColor: "orange",
+                    }}
+                    label={
+                      <Typography variant="h6" fontWeight="bold" color="white">
+                        Javascript
+                      </Typography>
+                    }
+                  />
+                </Grid>
+                <Rating value={4} readOnly />
               </Grid>
-              <Rating value={3} readOnly />
-            </Grid>
-            <Grid>
-              <Grid container>
-                <Chip
-                  sx={{
-                    backgroundColor: "orange",
-                  }}
-                  label={
-                    <Typography variant="h6" fontWeight="bold" color="white">
-                      HTML/CSS
-                    </Typography>
-                  }
-                />
+              <Grid xs={6} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Chip
+                    sx={{
+                      backgroundColor: "orange",
+                    }}
+                    label={
+                      <Typography variant="h6" fontWeight="bold" color="white">
+                        Node JS
+                      </Typography>
+                    }
+                  />
+                </Grid>
+                <Rating value={3} readOnly />
               </Grid>
-              <Rating value={4} readOnly />
-            </Grid>
-            <Grid>
-              <Grid container>
-                <Chip
-                  sx={{
-                    backgroundColor: "orange",
-                  }}
-                  label={
-                    <Typography variant="h6" fontWeight="bold" color="white">
-                      Git
-                    </Typography>
-                  }
-                />
+              <Grid xs={6} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Chip
+                    sx={{
+                      backgroundColor: "orange",
+                    }}
+                    label={
+                      <Typography variant="h6" fontWeight="bold" color="white">
+                        HTML/CSS
+                      </Typography>
+                    }
+                  />
+                </Grid>
+                <Rating value={4} readOnly />
               </Grid>
-              <Rating value={4} readOnly />
-            </Grid>
-            <Grid>
-              <Grid container>
-                <Chip
-                  sx={{
-                    backgroundColor: "orange",
-                  }}
-                  label={
-                    <Typography variant="h6" fontWeight="bold" color="white">
-                      Jira
-                    </Typography>
-                  }
-                />
+              <Grid xs={6} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Chip
+                    sx={{
+                      backgroundColor: "orange",
+                    }}
+                    label={
+                      <Typography variant="h6" fontWeight="bold" color="white">
+                        Git
+                      </Typography>
+                    }
+                  />
+                </Grid>
+                <Rating value={4} readOnly />
               </Grid>
-              <Rating value={4} readOnly />
+              <Grid xs={6} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Chip
+                    sx={{
+                      backgroundColor: "orange",
+                    }}
+                    label={
+                      <Typography variant="h6" fontWeight="bold" color="white">
+                        Jira
+                      </Typography>
+                    }
+                  />
+                </Grid>
+                <Rating value={4} readOnly />
+              </Grid>
             </Grid>
           </Grid>
         </Grid>
-
         <Divider
           sx={{
             marginBottom: "0.5rem",
@@ -210,7 +226,7 @@ function Resume(props) {
           container
           sx={{
             display: "flex",
-            height: 200,
+            margin: "auto",
           }}
           spacing={1}
         >
@@ -219,7 +235,12 @@ function Resume(props) {
               Work Experience
             </Typography>
           </Grid>
-          <Grid xs={12}>
+          <Grid
+            xs={12}
+            sx={{
+              padding: "1rem",
+            }}
+          >
             <Grid
               container
               sx={{
@@ -232,10 +253,11 @@ function Resume(props) {
                 <Chip
                   sx={{
                     backgroundColor: "orange",
+                    flexWrap: "wrap",
                   }}
                   label={
                     <Typography variant="h6" fontWeight="bold" color="white">
-                      Josh Software Private Limited.
+                      Josh Software Pvt. Ltd.
                     </Typography>
                   }
                 />
@@ -247,7 +269,12 @@ function Resume(props) {
               </Grid>
             </Grid>
           </Grid>
-          <Grid xs={12}>
+          <Grid
+            xs={12}
+            sx={{
+              padding: "1rem",
+            }}
+          >
             <Grid
               container
               sx={{
@@ -263,7 +290,7 @@ function Resume(props) {
                   }}
                   label={
                     <Typography variant="h6" fontWeight="bold" color="white">
-                      Spring Computing Technologies Priovate Limited
+                      Spring Computing Technologies Pvt. Ltd.
                     </Typography>
                   }
                 />
@@ -285,7 +312,7 @@ function Resume(props) {
           container
           sx={{
             display: "flex",
-            height: 110,
+            // height: 110,
           }}
           spacing={1}
         >
@@ -294,7 +321,12 @@ function Resume(props) {
               Roles and Responsibilities
             </Typography>
           </Grid>
-          <Grid xs={12}>
+          <Grid
+            xs={12}
+            sx={{
+              padding: "1rem",
+            }}
+          >
             <Grid
               container
               sx={{

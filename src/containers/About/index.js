@@ -15,15 +15,7 @@ import Layout from "../Layout";
 function About() {
   return (
     <Layout title="ABOUT ME">
-      <Grid
-        xs={12}
-        sm={12}
-        md={12}
-        lg={12}
-        sx={{
-          padding: "0.5rem",
-        }}
-      >
+      <Grid xs={12} sm={12} md={12} lg={12}>
         <Typography
           variant="h4"
           sx={{

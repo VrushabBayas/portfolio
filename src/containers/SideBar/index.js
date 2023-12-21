@@ -23,7 +23,7 @@ export default function ActionAreaCard() {
             backgroundColor: "#f0f0ed",
           }}
           style={{
-            height: "250px",
+            height: "15.625rem",
           }}
         />
         <CardContent

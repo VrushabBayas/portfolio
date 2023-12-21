@@ -15,7 +15,6 @@ function Layout({ children, title }) {
       sx={{
         backgroundColor: "#e9f5f9",
         margin: "auto",
-        padding: "1.5rem 1rem",
       }}
     >
       {!isMobileView && (
