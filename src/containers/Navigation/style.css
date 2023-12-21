@@ -42,25 +42,26 @@
     @media (max-width: 768px) {
         .container {
             padding: 0;
+            margin: 0;
             background-color: white;
             width: 100%;
+            display: flex;
+        }
+        .list-group {
+            background-color: orange;
+            margin: auto;
+            display: flex;
+            justify-content:center;
+        }
 
-            .list-group {
-                background-color: orange;
-                margin: auto;
-                padding: 1rem;
-                display: flex;
-            }
+        .verticle-bar {
+            display: none;
+            /* Hide the vertical bar on smaller screens */
+        }
 
-            .verticle-bar {
-                display: none;
-                /* Hide the vertical bar on smaller screens */
-            }
-
-            .list-item {
-                text-align: center;
-                /* Center the list items */
-            }
+        .list-item {
+            text-align: center;
+            /* Center the list items */
         }
 
     }

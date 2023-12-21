@@ -6,14 +6,14 @@ import ArticleIcon from "@mui/icons-material/Article";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import AppsIcon from "@mui/icons-material/Apps";
-import { Box } from "@mui/material";
+import { Grid } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 import "./style.css";
 
-function NavigationBar({ withLabel = false }) {
+function NavigationBar() {
   return (
-    <Box className="container">
+    <Grid container className="container">
       <ul className="list-group">
         <li className="list-item">
           <NavLink
@@ -82,7 +82,7 @@ function NavigationBar({ withLabel = false }) {
           </NavLink>
         </li>
       </ul>
-    </Box>
+    </Grid>
   );
 }
 

@@ -26,7 +26,7 @@ export default function InteractiveCard() {
           }}
         >
           <Grid container spacing={1} xs={12}>
-            <Grid xs={3}>
+            <Grid xs={12} lg={3} sm={3} md={3}>
               <img
                 className="zoom-effect"
                 src={WebDevelopment}
@@ -36,7 +36,7 @@ export default function InteractiveCard() {
                 }}
               />
             </Grid>
-            <Grid xs={8}>
+            <Grid xs={12} lg={8} sm={8} md={8}>
               <Typography level="title-lg" fontWeight="bold">
                 Web Development
               </Typography>
@@ -66,7 +66,7 @@ export default function InteractiveCard() {
           }}
         >
           <Grid container spacing={1} xs={12}>
-            <Grid xs={3}>
+            <Grid xs={12} lg={3} sm={3} md={3}>
               <img
                 className="zoom-effect"
                 src={Youtube}
@@ -76,7 +76,7 @@ export default function InteractiveCard() {
                 }}
               />
             </Grid>
-            <Grid xs={8}>
+            <Grid xs={12} lg={8} sm={8} md={8}>
               <Typography level="title-lg" fontWeight="bold">
                 Youtuber
               </Typography>
@@ -106,7 +106,7 @@ export default function InteractiveCard() {
           }}
         >
           <Grid container spacing={1} xs={12}>
-            <Grid xs={3}>
+            <Grid xs={12} lg={3} sm={3} md={3}>
               <img
                 className="zoom-effect"
                 src={GAMING}
@@ -117,7 +117,7 @@ export default function InteractiveCard() {
                 }}
               />
             </Grid>
-            <Grid xs={8}>
+            <Grid xs={12} lg={8} sm={8} md={8}>
               <Typography level="title-lg" fontWeight="bold">
                 Gamer
               </Typography>

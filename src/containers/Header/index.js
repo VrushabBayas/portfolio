@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import { Box, Grid, Typography } from "@mui/material";
 
 import "./style.css";
-function Header({ title, isMobileView }) {
+function Header({ title }) {
   return (
     <Grid className="header">
       <Typography
-        variant={`${isMobileView ? "h3" : "h1"}`}
+        variant={"h1"}
         fontWeight="bold"
         sx={{
           wordSpacing: 25,

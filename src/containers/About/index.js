@@ -61,7 +61,10 @@ function About() {
               <CardContent>
                 <Grid container>
                   <Grid
-                    xs={4}
+                    xs={12}
+                    sm={4}
+                    md={4}
+                    lg={4}
                     item
                     sx={{
                       display: "flex",
@@ -97,7 +100,10 @@ function About() {
                     color="white"
                   />
                   <Grid
-                    xs={4}
+                    xs={12}
+                    sm={4}
+                    md={4}
+                    lg={4}
                     item
                     sx={{
                       display: "flex",
@@ -134,7 +140,10 @@ function About() {
                   />
 
                   <Grid
-                    xs={4}
+                    xs={12}
+                    sm={4}
+                    md={4}
+                    lg={4}
                     item
                     sx={{
                       display: "flex",
@@ -170,7 +179,10 @@ function About() {
                     color="white"
                   />
                   <Grid
-                    xs={4}
+                    xs={12}
+                    sm={4}
+                    md={4}
+                    lg={4}
                     item
                     sx={{
                       display: "flex",
