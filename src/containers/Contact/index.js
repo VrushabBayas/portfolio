@@ -85,9 +85,9 @@ function Contact(props) {
         <Grid
           container
           sx={{
-            height: 300,
+            // height: 300,
             margin: "auto",
-            padding: "1rem",
+            padding: "6rem",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -95,7 +95,7 @@ function Contact(props) {
         >
           <Typography
             className="good-by-msg"
-            variant={`${isMobileview ? "h4" : "h2"}`}
+            variant={`${isMobileview ? "h5" : "h2"}`}
           >
             THANKS FOR PATIENCE!
           </Typography>
