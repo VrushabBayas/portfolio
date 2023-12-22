@@ -18,7 +18,7 @@ function Contact(props) {
         spacing={1}
         sx={{
           margin: "auto",
-          padding: "0.5rem",
+          padding: "1rem",
         }}
       >
         <Grid container>
