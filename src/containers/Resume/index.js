@@ -290,7 +290,7 @@ function Resume() {
                   }}
                   label={
                     <Typography variant="h6" fontWeight="bold" color="white">
-                      Spring Computing Technologies Pvt. Ltd.
+                      Spring CT. Pvt. Ltd.
                     </Typography>
                   }
                 />
