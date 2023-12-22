@@ -94,7 +94,7 @@ function Contact(props) {
           }}
         >
           <Typography
-            className="good-by-msg"
+            textAlign={"center"}
             variant={`${isMobileview ? "h5" : "h2"}`}
           >
             THANKS FOR PATIENCE!
