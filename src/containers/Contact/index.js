@@ -95,7 +95,7 @@ function Contact(props) {
         >
           <Typography
             textAlign={"center"}
-            variant={`${isMobileview ? "h5" : "h2"}`}
+            variant={`${isMobileview ? "h6" : "h2"}`}
           >
             THANKS FOR PATIENCE!
           </Typography>
