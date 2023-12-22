@@ -39,8 +39,8 @@ function Projects(props) {
             />
           </Grid>
           <Typography variant="p" fontSize={18}>
-            Digital platform top streamline budgets for advertising inventory
-            and media spends.
+            Digital platform to streamline budgets for advertising inventory and
+            media spends.
           </Typography>
         </Grid>
         <Grid

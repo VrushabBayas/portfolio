@@ -2,10 +2,12 @@ import React from "react";
 import Layout from "../Layout";
 
 import { Chip, Divider, Grid, Rating, Typography } from "@mui/material";
+import DownloadCV from "../../components/common/Download";
 
 function Resume() {
   return (
     <Layout title="RESUME">
+      <DownloadCV />
       <Grid
         sx={{
           margin: "auto",
