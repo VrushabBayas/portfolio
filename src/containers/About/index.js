@@ -222,11 +222,7 @@ function About() {
                 What I do?
               </Typography>
             </Grid>
-            <Grid
-              sx={{
-                marginBottom: "0.5rem",
-              }}
-            >
+            <Grid>
               <InteractiveCard />
             </Grid>
           </Grid>
