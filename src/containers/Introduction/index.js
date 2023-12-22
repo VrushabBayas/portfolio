@@ -4,14 +4,20 @@ import { Box, Card, Chip, Grid } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 import "./style.css";
-function Introduction() {
+function Introduction({ isMobileView }) {
   return (
     <Box>
       <Grid>
-        <Typography variant="h2" marginBottom="15px">
+        <Typography
+          variant={`${isMobileView ? "h4" : "h2"}`}
+          marginBottom="15px"
+        >
           HI THERE!{" "}
         </Typography>
-        <Typography variant="h1" marginBottom="15px">
+        <Typography
+          variant={`${isMobileView ? "h3" : "h1"}`}
+          marginBottom="15px"
+        >
           <b>I'M</b> <span style={{ fontFamily: "sans-serif" }}>VRUSHABH</span>
         </Typography>
         <Typography variant="h4" marginBottom="15px">

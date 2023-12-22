@@ -21,8 +21,6 @@ export default function ActionAreaCard() {
           alt="back ground image side bar"
           sx={{
             backgroundColor: "#f0f0ed",
-          }}
-          style={{
             height: "15.625rem",
           }}
         />

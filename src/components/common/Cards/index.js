@@ -12,7 +12,6 @@ export default function InteractiveCard() {
         variant="outlined"
         orientation="horizontal"
         sx={{
-          margin: "0.2rem",
           backgroundColor: "#e9f5f9",
           border: "none",
         }}

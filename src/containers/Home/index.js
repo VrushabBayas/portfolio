@@ -5,9 +5,11 @@ import Introduction from "../Introduction/index";
 import Profile from "../Profile";
 
 import NavigationBar from "../Navigation";
-
-// import "./style.css";
+const isMobileDevice = () => {
+  return window.innerWidth <= 767;
+};
 const Home = () => {
+  const isMobileView = isMobileDevice();
   return (
     <Grid container className="container" xs={12}>
       <Grid
@@ -21,7 +23,7 @@ const Home = () => {
           padding: "0rem 2rem",
         }}
       >
-        <Introduction />
+        <Introduction isMobileView={isMobileView} />
       </Grid>
       <Grid item xs={12} sm={4} md={4} lg={5} sx={{}}>
         <Profile />
