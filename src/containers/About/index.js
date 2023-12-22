@@ -25,24 +25,34 @@ function About() {
           I'm <b>Vrushabh Bayas</b> , Software Engineer / Web Developer
         </Typography>
         <Typography
+          variant="body1"
           sx={{
             padding: "1rem",
           }}
         >
-          I am a software engineer with six years of experience, specializing in
-          web development with a focus on React.js. Recognized for my quick
-          learning abilities, I thrive on exploring new technologies and ideas.
-          Beyond coding, I am a passionate gamer and content creator with two
-          channels. One channel is dedicated to sharing my gaming adventures and
-          strategies, while the other delves into technical topics, offering
-          insights and tutorials. I find joy in both playing games and teaching
-          others. Join me on my channels to experience the perfect blend of
-          technology and entertainment!"
+          I am a software engineer with <b>6 year's</b> of experience,
+          specializing in <b>web development</b> with a focus on{" "}
+          <b>React.js.</b>
+          Recognized for my quick learning abilities, I thrive on exploring new
+          technologies and ideas. Beyond coding, I am a passionate gamer and
+          content creator with two channels. One channel is dedicated to sharing
+          my gaming adventures and strategies, while the other delves into
+          technical topics, offering insights and tutorials. I find joy in both
+          playing games and teaching others. Join me on my channels to
+          experience the perfect blend of technology and entertainment!"
         </Typography>
       </Grid>
       <Grid xs={12} sm={12} md={12} lg={12}>
         <Grid container justifyContent="center">
-          <Grid xs={6}>
+          <Grid
+            xs={12}
+            sm={5}
+            md={6}
+            lg={6}
+            sx={{
+              padding: "0.5rem",
+            }}
+          >
             <Card
               className="card-body"
               sx={{
@@ -51,9 +61,9 @@ function About() {
               }}
             >
               <CardContent>
-                <Grid container>
+                <Grid container spacing={1}>
                   <Grid
-                    xs={12}
+                    xs={5}
                     sm={4}
                     md={4}
                     lg={4}
@@ -79,7 +89,11 @@ function About() {
                         </Typography>
                       </Box>
                       <Box>
-                        <Typography variant="h6" color="white">
+                        <Typography
+                          textAlign="center"
+                          variant="h6"
+                          color="white"
+                        >
                           Projects Done
                         </Typography>
                       </Box>
@@ -92,7 +106,7 @@ function About() {
                     color="white"
                   />
                   <Grid
-                    xs={12}
+                    xs={5}
                     sm={4}
                     md={4}
                     lg={4}
@@ -118,7 +132,11 @@ function About() {
                         </Typography>
                       </Box>
                       <Box>
-                        <Typography variant="h6" color="white">
+                        <Typography
+                          textAlign="center"
+                          variant="h6"
+                          color="white"
+                        >
                           Lines Code Written
                         </Typography>
                       </Box>
@@ -132,7 +150,7 @@ function About() {
                   />
 
                   <Grid
-                    xs={12}
+                    xs={5}
                     sm={4}
                     md={4}
                     lg={4}
@@ -158,7 +176,11 @@ function About() {
                         </Typography>
                       </Box>
                       <Box>
-                        <Typography variant="h6" color="white">
+                        <Typography
+                          textAlign="center"
+                          variant="h6"
+                          color="white"
+                        >
                           Technical Skills
                         </Typography>
                       </Box>
@@ -171,7 +193,7 @@ function About() {
                     color="white"
                   />
                   <Grid
-                    xs={12}
+                    xs={5}
                     sm={4}
                     md={4}
                     lg={4}
@@ -197,7 +219,11 @@ function About() {
                         </Typography>
                       </Box>
                       <Box>
-                        <Typography variant="h6" color="white">
+                        <Typography
+                          textAlign="center"
+                          variant="h6"
+                          color="white"
+                        >
                           Years Experience
                         </Typography>
                       </Box>

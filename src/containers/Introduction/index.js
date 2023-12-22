@@ -44,11 +44,11 @@ function Introduction({ isMobileView }) {
             fontFamily: `font-family: 'Poppins', sans-serif`,
           }}
         >
-          I am a professional Web Developer with over 6 years of experience in
-          web development. I have strong creative and analytical skills, paying
-          great attention to detail. As a team player, I thrive in collaborative
-          environments. My expertise lies in JavaScript, ReactJs, HTML, CSS, and
-          Bootstrap.
+          I am a professional <b>Web Developer</b> with over <b>6 year's</b> of
+          experience in <b>Web Development</b>. I have strong creative and
+          analytical skills, paying great attention to detail. As a team player,
+          I thrive in collaborative environments. My expertise lies in{" "}
+          <b>JavaScript</b>,<b>ReactJs, HTML, CSS, and Bootstrap</b>.
         </Typography>
         <Chip
           size="large"
