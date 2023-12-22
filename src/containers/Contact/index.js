@@ -6,8 +6,11 @@ import Call from "../../Assets/Images/call.png";
 import { Grid, Typography } from "@mui/material";
 
 import "./style.css";
-
+const isMobileDevice = () => {
+  return window.innerWidth <= 767;
+};
 function Contact(props) {
+  const isMobileview = isMobileDevice();
   return (
     <Layout title="CONTACT">
       <Grid
@@ -90,7 +93,10 @@ function Contact(props) {
             alignItems: "center",
           }}
         >
-          <Typography className="good-by-msg" variant="h2">
+          <Typography
+            className="good-by-msg"
+            variant={`${isMobileview ? "h4" : "h2"}`}
+          >
             THANKS FOR PATIENCE!
           </Typography>
         </Grid>
