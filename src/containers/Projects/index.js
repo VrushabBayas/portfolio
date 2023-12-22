@@ -39,9 +39,8 @@ function Projects(props) {
             />
           </Grid>
           <Typography variant="p" fontSize={18}>
-            Proident eu aliqua laboris sint reprehenderit irure fugiat est sunt
-            velit dolore enim elit duis. Ad occaecat qui cillum fugiat
-            excepteur.
+            Digital platform top streamline budgets for advertising inventory
+            and media spends.
           </Typography>
         </Grid>
         <Grid
