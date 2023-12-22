@@ -22,7 +22,7 @@ function Contact(props) {
         }}
       >
         <Grid container>
-          <Typography variant="h2">
+          <Typography variant={`${isMobileview ? "h4" : "h2"}`}>
             Feel <b>free</b> to contact me!
           </Typography>
         </Grid>
@@ -46,8 +46,8 @@ function Contact(props) {
           >
             <img
               style={{
-                width: "8rem",
-                height: "8rem",
+                width: isMobileview ? "4rem" : "8rem",
+                height: isMobileview ? "4rem" : "8rem",
               }}
               className="contact-icon"
               src={Email}
@@ -70,8 +70,8 @@ function Contact(props) {
           >
             <img
               style={{
-                width: "8rem",
-                height: "8rem",
+                width: isMobileview ? "4rem" : "8rem",
+                height: isMobileview ? "4rem" : "8rem",
               }}
               className="contact-icon"
               src={Call}
@@ -85,7 +85,7 @@ function Contact(props) {
         <Grid
           container
           sx={{
-            height: 200,
+            height: 300,
             margin: "auto",
             padding: "1rem",
             display: "flex",
