@@ -25,7 +25,7 @@ function About() {
           I'm <b>Vrushabh Bayas</b> , Software Engineer / Web Developer
         </Typography>
         <Typography
-          variant="body1"
+          variant="h6"
           sx={{
             padding: "1rem",
           }}

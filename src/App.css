@@ -5,3 +5,6 @@
 .zoom-effect:hover{
     transform: scale(1.2);
 }
+.shadow{
+    font-family:'Rubik Doodle Shadow';
+}

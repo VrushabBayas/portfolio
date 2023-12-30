@@ -2,3 +2,17 @@
     text-decoration: none;
     color: white;
 }
+@font-face {
+    font-family: shadow;
+    src: url('../../../public/RubikDoodleShadow-Regular.ttf');
+}
+.shadow{
+    font-family:'Rubik Doodle Shadow';
+}
+@font-face {
+    font-family: inconsolata;
+    src: url('../../../public/RubikDoodleShadow-Regular.ttf');
+}
+.inconsolata{
+    font-family:'Inconsolata';
+}

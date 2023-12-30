@@ -12,13 +12,13 @@ function Introduction({ isMobileView }) {
           variant={`${isMobileView ? "h4" : "h2"}`}
           marginBottom="15px"
         >
-          HI THERE!{" "}
+          <div className="shadow">HI THERE!</div>{" "}
         </Typography>
         <Typography
           variant={`${isMobileView ? "h3" : "h1"}`}
           marginBottom="15px"
         >
-          <b>I'M</b> <span style={{ fontFamily: "sans-serif" }}>VRUSHABH</span>
+          <div className="shadow">I'M VRUSHABH</div>
         </Typography>
         <Typography variant="h4" marginBottom="15px">
           <Card
@@ -38,7 +38,7 @@ function Introduction({ isMobileView }) {
           </Card>
         </Typography>
         <Typography
-          variant="body1"
+          variant="h6"
           marginBottom="15px"
           style={{
             fontFamily: `font-family: 'Poppins', sans-serif`,
@@ -48,7 +48,8 @@ function Introduction({ isMobileView }) {
           experience in <b>Web Development</b>. I have strong creative and
           analytical skills, paying great attention to detail. As a team player,
           I thrive in collaborative environments. My expertise lies in{" "}
-          <b>JavaScript</b>,<b>ReactJs, HTML, CSS, and Bootstrap</b>.
+          <b>JavaScript</b>,
+          <b> ReactJs, NodeJs, NextJS, HTML, CSS, and Bootstrap</b>.
         </Typography>
         <Chip
           size="large"
