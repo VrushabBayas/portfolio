@@ -8,6 +8,7 @@ import Projects from "./containers/Projects";
 
 import "./App.css";
 import Contact from "./containers/Contact";
+import Content from "./containers/Content";
 
 const router = createBrowserRouter(
   [
@@ -30,6 +31,10 @@ const router = createBrowserRouter(
     {
       path: "/contact",
       element: <Contact />,
+    },
+    {
+      path: "/content",
+      element: <Content />,
     },
   ],
   { basename: "/portfolio" }
