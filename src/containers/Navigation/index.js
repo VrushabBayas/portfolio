@@ -62,7 +62,7 @@ function NavigationBar() {
         <div className="verticle-bar" />
         <li className="list-item">
           <NavLink
-            to="/"
+            to="/content"
             className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
             }

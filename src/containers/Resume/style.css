@@ -1,0 +1,9 @@
+.skill-card-img{
+    width: 100px !important;
+    text-align: center !important;
+    object-fit: "contain" !important;
+}
+.skill-action-area{
+    justify-content: center !important;
+    display: flex !important;
+}

@@ -1,9 +1,29 @@
 import React from "react";
 import Layout from "../Layout";
 
-import { Chip, Divider, Grid, Rating, Typography } from "@mui/material";
+import {
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Chip,
+  Divider,
+  Grid,
+  Rating,
+  Typography,
+} from "@mui/material";
 import DownloadCV from "../../components/common/Download";
 
+import Reactjs from "../../Assets/Images/react.webp";
+import js from "../../Assets/Images/js.png";
+import ts from "../../Assets/Images/typescript.png";
+import htmllogo from "../../Assets/Images/htmlcss.png";
+import nextJs from "../../Assets/Images/nexrtjs.png";
+import nodelogo from "../../Assets/Images/nodejs.webp";
+import jira from "../../Assets/Images/jira.png";
+import bs from "../../Assets/Images/bs.png";
+import git from "../../Assets/Images/git.png";
+import "./style.css";
 function Resume() {
   return (
     <Layout title="RESUME">
@@ -126,95 +146,242 @@ function Resume() {
                 padding: "1rem",
               }}
             >
-              <Grid xs={6} lg={4} sm={4} md={4}>
+              <Grid xs={12} lg={4} sm={4} md={4}>
                 <Grid container>
-                  <Chip
-                    sx={{
-                      backgroundColor: "orange",
-                    }}
-                    label={
-                      <Typography variant="h6" fontWeight="bold" color="white">
-                        React JS
-                      </Typography>
-                    }
-                  />
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={Reactjs}
+                        alt="React js logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          ReactJS
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 6+ years of experience
+                        </Typography>
+                        <Rating value={4} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
                 </Grid>
-                <Rating value={4} readOnly />
               </Grid>
-              <Grid xs={6} lg={4} sm={4} md={4}>
+              <Grid xs={12} lg={4} sm={4} md={4}>
                 <Grid container>
-                  <Chip
-                    sx={{
-                      backgroundColor: "orange",
-                    }}
-                    label={
-                      <Typography variant="h6" fontWeight="bold" color="white">
-                        Javascript
-                      </Typography>
-                    }
-                  />
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={js}
+                        alt="js logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          Javascrip
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 6+ years of experience
+                        </Typography>
+                        <Rating value={4} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
                 </Grid>
-                <Rating value={4} readOnly />
               </Grid>
-              <Grid xs={6} lg={4} sm={4} md={4}>
+              <Grid xs={12} lg={4} sm={4} md={4}>
                 <Grid container>
-                  <Chip
-                    sx={{
-                      backgroundColor: "orange",
-                    }}
-                    label={
-                      <Typography variant="h6" fontWeight="bold" color="white">
-                        Node JS
-                      </Typography>
-                    }
-                  />
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={ts}
+                        alt="js logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          Typescript
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 1+ years of experience
+                        </Typography>
+                        <Rating value={3} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
                 </Grid>
-                <Rating value={3} readOnly />
               </Grid>
-              <Grid xs={6} lg={4} sm={4} md={4}>
+            </Grid>
+            <Grid
+              container
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                padding: "1rem",
+              }}
+            >
+              <Grid xs={12} lg={4} sm={4} md={4}>
                 <Grid container>
-                  <Chip
-                    sx={{
-                      backgroundColor: "orange",
-                    }}
-                    label={
-                      <Typography variant="h6" fontWeight="bold" color="white">
-                        HTML/CSS
-                      </Typography>
-                    }
-                  />
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={htmllogo}
+                        alt="html logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          HTML/CSS
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 6+ years of experience
+                        </Typography>
+                        <Rating value={4} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
                 </Grid>
-                <Rating value={4} readOnly />
               </Grid>
-              <Grid xs={6} lg={4} sm={4} md={4}>
+              <Grid xs={12} lg={4} sm={4} md={4}>
                 <Grid container>
-                  <Chip
-                    sx={{
-                      backgroundColor: "orange",
-                    }}
-                    label={
-                      <Typography variant="h6" fontWeight="bold" color="white">
-                        Git
-                      </Typography>
-                    }
-                  />
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={bs}
+                        alt="html logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          Bootstrap
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 6+ years of experience
+                        </Typography>
+                        <Rating value={4} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
                 </Grid>
-                <Rating value={4} readOnly />
               </Grid>
-              <Grid xs={6} lg={4} sm={4} md={4}>
+              <Grid xs={12} lg={4} sm={4} md={4}>
                 <Grid container>
-                  <Chip
-                    sx={{
-                      backgroundColor: "orange",
-                    }}
-                    label={
-                      <Typography variant="h6" fontWeight="bold" color="white">
-                        Jira
-                      </Typography>
-                    }
-                  />
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={nodelogo}
+                        alt="Node logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          NodeJS
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 1+ years of experience
+                        </Typography>
+                        <Rating value={3} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
                 </Grid>
-                <Rating value={4} readOnly />
+              </Grid>
+            </Grid>
+            <Grid
+              container
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+                padding: "1rem",
+              }}
+            >
+              <Grid xs={12} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={nextJs}
+                        alt="js logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          NextJS
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 1+ years of experience
+                        </Typography>
+                        <Rating value={3} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid
+              container
+              sx={{
+                display: "flex",
+                // justifyContent: "space-",
+                alignItems: "center",
+                padding: "1rem",
+              }}
+            >
+              <Grid xs={12} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={jira}
+                        alt="html logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          Jira
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 6+ years of experience
+                        </Typography>
+                        <Rating value={4} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
+              </Grid>
+              <Grid xs={12} lg={4} sm={4} md={4}>
+                <Grid container>
+                  <Card sx={{ maxWidth: 250 }}>
+                    <CardActionArea className="skill-action-area">
+                      <CardMedia
+                        className="skill-card-img"
+                        component="img"
+                        image={git}
+                        alt="html logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          Git
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          Over 6+ years of experience
+                        </Typography>
+                        <Rating value={4} readOnly />
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
               </Grid>
             </Grid>
           </Grid>
@@ -314,7 +481,6 @@ function Resume() {
           container
           sx={{
             display: "flex",
-            // height: 110,
           }}
           spacing={1}
         >
