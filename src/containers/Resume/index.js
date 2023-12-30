@@ -31,87 +31,126 @@ function Resume() {
       <Grid
         sx={{
           margin: "auto",
-          padding: "1rem",
+          padding: "0.5rem",
         }}
       >
-        <Grid
-          container
-          sx={{
-            display: "flex",
-          }}
-          spacing={1}
-        >
-          <Grid container alignItems="center">
-            <Typography variant="h5" fontWeight="bold">
-              Education
-            </Typography>
+        <Grid container>
+          <Grid
+            container
+            sx={{
+              display: "flex",
+            }}
+            xs={12}
+            lg={6}
+            // spacing={1}
+          >
+            <Grid container alignItems="center">
+              <Typography variant="h5" fontWeight="bold">
+                Education
+              </Typography>
+            </Grid>
+            <Grid
+              xs={12}
+              lg={6}
+              sm={6}
+              md={6}
+              sx={{
+                padding: "0.5rem",
+              }}
+            >
+              <Grid container>
+                <Chip
+                  sx={{
+                    backgroundColor: "orange",
+                  }}
+                  label={
+                    <Typography variant="h6" fontWeight="bold" color="white">
+                      Passed out 2018
+                    </Typography>
+                  }
+                />
+              </Grid>
+              <Grid container>
+                <Typography fontWeight="bold">MSC (Comp.Sci)</Typography>
+              </Grid>
+              <Grid container>
+                <Typography variant="p">Nowrojee Wadia college</Typography>
+              </Grid>
+              <Grid container>
+                <Typography variant="p">Pune Uniersity</Typography>
+              </Grid>
+              <Grid container>
+                <Typography variant="p">Master of Computer science</Typography>
+              </Grid>
+            </Grid>
+            <Grid
+              xs={12}
+              lg={6}
+              sm={6}
+              md={6}
+              sx={{
+                padding: "1rem",
+              }}
+            >
+              <Grid container>
+                <Chip
+                  sx={{
+                    backgroundColor: "orange",
+                  }}
+                  label={
+                    <Typography variant="h6" fontWeight="bold" color="white">
+                      Passed out 2016
+                    </Typography>
+                  }
+                />
+              </Grid>
+              <Grid container>
+                <Typography fontWeight="bold">BSC (Comp.Sci)</Typography>
+              </Grid>
+              <Grid container>
+                <Typography variant="p">Annasaheb Magar College</Typography>
+              </Grid>
+              <Grid container>
+                <Typography variant="p">Pune Uniersity</Typography>
+              </Grid>
+              <Grid container>
+                <Typography variant="p">
+                  Bachelor of Computer science
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
           <Grid
-            xs={12}
-            lg={4}
-            sm={4}
-            md={4}
+            container
             sx={{
-              padding: "1rem",
+              display: "flex",
             }}
-          >
-            <Grid container>
-              <Chip
-                sx={{
-                  backgroundColor: "orange",
-                }}
-                label={
-                  <Typography variant="h6" fontWeight="bold" color="white">
-                    Passed out 2018
-                  </Typography>
-                }
-              />
-            </Grid>
-            <Grid container>
-              <Typography fontWeight="bold">MSC (Comp.Sci)</Typography>
-            </Grid>
-            <Grid container>
-              <Typography variant="p">Nowrojee Wadia college</Typography>
-            </Grid>
-            <Grid container>
-              <Typography variant="p">Pune Uniersity</Typography>
-            </Grid>
-            <Grid container>
-              <Typography variant="p">Master of Computer science</Typography>
-            </Grid>
-          </Grid>
-          <Grid
             xs={12}
-            lg={4}
-            sm={4}
-            md={4}
-            sx={{
-              padding: "1rem",
-            }}
+            lg={6}
+            spacing={1}
           >
-            <Grid container>
-              <Chip
+            <Grid container alignItems="center">
+              <Typography variant="h5" fontWeight="bold">
+                Roles and Responsibilities
+              </Typography>
+            </Grid>
+            <Grid xs={12} lg={12}>
+              <Grid
+                container
                 sx={{
-                  backgroundColor: "orange",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
                 }}
-                label={
-                  <Typography variant="h6" fontWeight="bold" color="white">
-                    Passed out 2016
-                  </Typography>
-                }
-              />
-            </Grid>
-            <Grid container>
-              <Typography fontWeight="bold">BSC (Comp.Sci)</Typography>
-            </Grid>
-            <Grid container>
-              <Typography variant="p">Annasaheb Magar College</Typography>
-            </Grid>
-            <Grid container>
-              <Typography variant="p">Pune Uniersity</Typography>
-            </Grid>
-            <Grid container>
-              <Typography variant="p">Bachelor of Computer science</Typography>
+              >
+                <Typography variant="p">
+                  Carried responsibilities of requirement understanding,
+                  software design, designing project structure and development
+                  of UI features in ReactJS, UI improvements, integration of web
+                  services, implementing reusable UI components and unit
+                  testing. Maintenance and support for of existing projects.
+                </Typography>
+              </Grid>
             </Grid>
           </Grid>
         </Grid>
@@ -160,9 +199,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           ReactJS
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 6+ years of experience
-                        </Typography>
+
                         <Rating value={4} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -183,9 +220,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           Javascrip
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 6+ years of experience
-                        </Typography>
+
                         <Rating value={4} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -206,9 +241,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           Typescript
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 1+ years of experience
-                        </Typography>
+
                         <Rating value={3} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -239,9 +272,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           HTML/CSS
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 6+ years of experience
-                        </Typography>
+
                         <Rating value={4} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -262,9 +293,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           Bootstrap
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 6+ years of experience
-                        </Typography>
+
                         <Rating value={4} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -285,9 +314,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           NodeJS
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 1+ years of experience
-                        </Typography>
+
                         <Rating value={3} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -318,9 +345,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           NextJS
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 1+ years of experience
-                        </Typography>
+
                         <Rating value={3} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -332,7 +357,6 @@ function Resume() {
               container
               sx={{
                 display: "flex",
-                // justifyContent: "space-",
                 alignItems: "center",
                 padding: "1rem",
               }}
@@ -351,9 +375,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           Jira
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 6+ years of experience
-                        </Typography>
+
                         <Rating value={4} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -374,9 +396,7 @@ function Resume() {
                         <Typography gutterBottom variant="h5" component="div">
                           Git
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                          Over 6+ years of experience
-                        </Typography>
+
                         <Rating value={4} readOnly />
                       </CardContent>
                     </CardActionArea>
@@ -469,47 +489,6 @@ function Resume() {
                   Jan-18 - Feb 2020
                 </Typography>
               </Grid>
-            </Grid>
-          </Grid>
-        </Grid>
-        <Divider
-          sx={{
-            marginBottom: "0.5rem",
-          }}
-        />
-        <Grid
-          container
-          sx={{
-            display: "flex",
-          }}
-          spacing={1}
-        >
-          <Grid container alignItems="center">
-            <Typography variant="h5" fontWeight="bold">
-              Roles and Responsibilities
-            </Typography>
-          </Grid>
-          <Grid
-            xs={12}
-            sx={{
-              padding: "1rem",
-            }}
-          >
-            <Grid
-              container
-              sx={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-              }}
-            >
-              <Typography variant="p">
-                Carried responsibilities of requirement understanding, software
-                design, designing project structure and development of UI
-                features in ReactJS, UI improvements, integration of web
-                services, implementing reusable UI components and unit testing.
-                Maintenance and support for of existing projects.
-              </Typography>
             </Grid>
           </Grid>
         </Grid>
