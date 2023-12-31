@@ -90,19 +90,7 @@ export default function ActionAreaCard() {
                   </Typography>
                 </NavLink>
               </li>
-              <div className="verticle-bar" />
-              <li className="list-item zoom-effect">
-                <NavLink
-                  to="/content"
-                  className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : ""
-                  }
-                >
-                  <Typography variant="h5" marginBottom="15px" fontWeight={600}>
-                    Content
-                  </Typography>
-                </NavLink>
-              </li>
+
               <div className="verticle-bar" />
               <li className="list-item zoom-effect">
                 <NavLink

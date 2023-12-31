@@ -20,10 +20,11 @@
         }
     }
     .verticle-bar {
-        height: 2rem;
+        height: 2.5rem;
         width: 1px;
         border-left: 3px dotted black;
        margin: auto;
+       padding-bottom: 0.5rem;
     }
     .verticle-bar-dot {
         text-align: center;
@@ -32,5 +33,6 @@
         border-radius: 50%;
         background-color: black;
         margin: auto;
+        
     }
 }

@@ -58,18 +58,6 @@ function NavigationBar() {
             <AppsIcon className="zoom-effect" />
           </NavLink>
         </li>
-
-        <div className="verticle-bar" />
-        <li className="list-item">
-          <NavLink
-            to="/content"
-            className={({ isActive, isPending }) =>
-              isPending ? "pending" : isActive ? "active nav-link" : "nav-link"
-            }
-          >
-            <MenuBookIcon className="zoom-effect" />
-          </NavLink>
-        </li>
         <div className="verticle-bar" />
         <li className="list-item">
           <NavLink
