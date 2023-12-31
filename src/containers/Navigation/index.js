@@ -13,7 +13,7 @@ import "./style.css";
 
 function NavigationBar() {
   return (
-    <Grid container className="container">
+    <Grid className="container">
       <ul className="list-group">
         <li className="list-item">
           <NavLink

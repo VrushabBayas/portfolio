@@ -40,7 +40,7 @@ function Layout({ children, title }) {
         <Header title={title} isMobileView={isMobileView} />
         {children}
       </Grid>
-      {!isResume && (
+      {
         <Grid
           item
           xs={12}
@@ -53,7 +53,7 @@ function Layout({ children, title }) {
         >
           <NavigationBar />
         </Grid>
-      )}
+      }
     </Grid>
   );
 }

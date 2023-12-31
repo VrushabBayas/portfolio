@@ -15,9 +15,9 @@ const Home = () => {
       <Grid
         item
         xs={12}
-        sm={6}
-        md={6}
-        lg={6}
+        sm={7}
+        md={7}
+        lg={7}
         sx={{
           margin: "auto",
           padding: "0rem 2rem",
@@ -25,10 +25,10 @@ const Home = () => {
       >
         <Introduction isMobileView={isMobileView} />
       </Grid>
-      <Grid item xs={12} sm={4} md={4} lg={5} sx={{}}>
+      <Grid item xs={12} sm={5} md={5} lg={5}>
         <Profile />
       </Grid>
-      <Grid
+      {/* <Grid
         item
         xs={12}
         sm={1}
@@ -40,7 +40,7 @@ const Home = () => {
         }}
       >
         <NavigationBar />
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };
