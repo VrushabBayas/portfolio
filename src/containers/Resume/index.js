@@ -331,7 +331,7 @@ function Resume() {
                   padding: "1rem",
                 }}
               >
-                <Grid xs={12} lg={4} sm={4} md={4}>
+                <Grid xs={12} lg={4} sm={4} md={4} pb={1}>
                   <Grid container justifyContent="center">
                     <Card sx={{ maxWidth: 250 }}>
                       <CardActionArea className="skill-action-area">
