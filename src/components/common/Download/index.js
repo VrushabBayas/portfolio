@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../../../Assets/Images/resume.pdf";
+import resumeFile from "../../../Assets/Images/resumeVrushabhBayas.pdf";
 import { Button, Grid } from "@mui/material";
 
 const DownloadCV = () => {
